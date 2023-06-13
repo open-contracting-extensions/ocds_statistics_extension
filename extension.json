@@ -17,7 +17,7 @@
   "compatibility": [
     "1.1"
   ],
-  "testDependencies": [
+  "dependencies": [
     "https://raw.githubusercontent.com/open-contracting-extensions/ocds_bid_extension/master/extension.json"
   ],
   "contactPoint": {
