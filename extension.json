@@ -12,6 +12,7 @@
     "release-schema.json"
   ],
   "codelists": [
+    "+statistic.csv",
     "statisticScope.csv"
   ],
   "compatibility": [
