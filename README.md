@@ -2,6 +2,8 @@
 
 Adds a top-level `statistics` field to describe statistics about the contracting process.
 
+This extension must be used with the [Bid statistics and details](https://extensions.open-contracting.org/en/extensions/bids/master/) extension.
+
 ## Usage
 
 If you use a codelist for `statistics.measure`, you should explain where the codes are from in your publication policy/user guide.
