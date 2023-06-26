@@ -7,8 +7,8 @@
       "items": {
         "$ref": "#/definitions/Statistic"
       },
-      "minItems": 1,
-      "uniqueItems": true
+      "uniqueItems": true,
+      "minItems": 1
     }
   },
   "definitions": {
