@@ -1,1 +1,35 @@
-{}
+{
+  "properties": {
+    "statistics": {
+      "title": "Statistics",
+      "description": "Statistics about the contracting process.",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Statistic"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "definitions": {
+    "Statistic": {
+      "properties": {
+        "scope": {
+          "title": "Scope",
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The scope of the statistic, from the closed statistic scope codelist.",
+          "codelist": "statisticScope.csv",
+          "openCodelist": false,
+          "enum": [
+            "complaints",
+            null
+          ]
+        }
+      },
+      "minProperties": 1
+    }
+  }
+}
