@@ -1,6 +1,6 @@
 # Statistics
 
-Adds a top-level `statistics` field to describe statistics about the contracting process.
+Adds a top-level statistics array to describe statistics about the contracting process.
 
 This extension must be used with the [Bid statistics and details](https://extensions.open-contracting.org/en/extensions/bids/master/) extension.
 

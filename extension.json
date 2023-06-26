@@ -3,7 +3,7 @@
     "en": "Statistics"
   },
   "description": {
-    "en": "Adds a top-level statistics field to describe statistics about the contracting process."
+    "en": "Adds a top-level statistics array to describe statistics about the contracting process."
   },
   "documentationUrl": {
     "en": "https://github.com/open-contracting-extensions/ocds_statistics_extension"
