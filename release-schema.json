@@ -16,11 +16,11 @@
       "properties": {
         "scope": {
           "title": "Scope",
+          "description": "The scope of the statistic, from the closed statistic scope codelist.",
           "type": [
             "string",
             "null"
           ],
-          "description": "The scope of the statistic, from the closed statistic scope codelist.",
           "codelist": "statisticScope.csv",
           "openCodelist": false,
           "enum": [
